@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Input Test</title>
+    <meta content="initial-scale=1,maximum-scale=1,user-scalable=no,user-scalable=0,minimal-ui" name="viewport" />
+    <style type="text/css">
+      body {
+        padding: 10px;
+        margin: 0;
+        font: normal 12px sans-serif;
+      }
+
+      .main {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+        padding-bottom: 300px;
+      }
+
+      h1 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        padding: 0 0 10px 0;
+        text-align: center;
+      }
+
+      h2 {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+      }
+
+      pre {
+        font: normal 11px monospace;
+        margin: 0;
+        padding: 5px 0;
+      }
+
+      .input {
+        padding: 50px 0;
+        border-top: 1px solid #dddddd;
+      }
+
+      input, textarea {
+        box-sizing: border-box;
+        width: 100%;
+        min-height: 30px;
+      }
+
+      input:focus, textarea:focus {
+        outline: 1px solid red;
+        background: #aaaaaa;
+      }
+
+      *[type="file"], *[type="checkbox"], *[type="radio"], *[type="range"] {
+        min-height: 0;
+      }
+    </style>
+  </head>
+  <body class="index">
+    <div class="main">
+      <h1>Input Type Testing</h1>
+
+      <div class="input">
+        <h2>01</h2>
+        <pre>&lt;input type="text" /&gt;</pre>
+        <p><input type="text" /></p>
+      </div>
+
+      <div class="input">
+        <h2>02</h2>
+        <pre>&lt;input type="number" /&gt;</pre>
+        <p><input type="number" /></p>
+      </div>
+
+      <div class="input">
+        <h2>03</h2>
+        <pre>&lt;input type="tel" /&gt;</pre>
+        <p><input type="tel" /></p>
+      </div>
+
+      <div class="input">
+        <h2>04</h2>
+        <pre>&lt;input type="email" /&gt;</pre>
+        <p><input type="email" /></p>
+      </div>
+
+      <div class="input">
+        <h2>05</h2>
+        <pre>&lt;input type="url" /&gt;</pre>
+        <p><input type="url" /></p>
+      </div>
+
+      <div class="input">
+        <h2>06</h2>
+        <pre>&lt;input type="file" /&gt;</pre>
+        <p><input type="file" /></p>
+      </div>
+
+      <div class="input">
+        <h2>07</h2>
+        <pre>&lt;input type="radio" /&gt;</pre>
+        <p><input type="radio" /></p>
+      </div>
+
+      <div class="input">
+        <h2>08</h2>
+        <pre>&lt;input type="checkbox" /&gt;</pre>
+        <p><input type="checkbox" /></p>
+      </div>
+
+      <div class="input">
+        <h2>09</h2>
+        <pre>&lt;select&gt;
+        &lt;option&gt;Test 1&lt;/option&gt;
+        &lt;option&gt;Test 2&lt;/option&gt;
+      &lt;/select&gt;</pre>
+        <p><select><option>Test 1</option><option>Test 2</option></select></p>
+      </div>
+
+      <div class="input">
+        <h2>10</h2>
+        <pre>&lt;input type="range" /&gt;</pre>
+        <p><input type="range" /></p>
+      </div>
+
+      <div class="input">
+        <h2>11</h2>
+        <pre>&lt;input type="search" /&gt;</pre>
+        <p><input type="search" /></p>
+      </div>
+
+      <div class="input">
+        <h2>12</h2>
+        <pre>&lt;input type="password" /&gt;</pre>
+        <p><input type="password" /></p>
+      </div>
+
+      <div class="input">
+        <h2>13</h2>
+        <pre>&lt;textarea&gt;&lt;/textarea&gt;</pre>
+        <p><textarea></textarea></p>
+      </div>
+
+      <div class="input">
+        <h2>14</h2>
+        <pre>&lt;input type="text" pattern="[0-9]*" /&gt;</pre>
+        <p><input type="text" pattern="[0-9]*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>15</h2>
+        <pre>&lt;input type="number" pattern="[0-9]*" /&gt;</pre>
+        <p><input type="number" pattern="[0-9]*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>16</h2>
+        <pre>&lt;input type="text" pattern="[0-9\.]*" /&gt;</pre>
+        <p><input type="text" pattern="[0-9\.]*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>17</h2>
+        <pre>&lt;input type="number" pattern="[0-9\.]*" /&gt;</pre>
+        <p><input type="number" pattern="[0-9\.]*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>18</h2>
+        <pre>&lt;input type="text" pattern="\d*" /&gt;</pre>
+        <p><input type="text" pattern="\d*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>19</h2>
+        <pre>&lt;input type="number" pattern="\d*" /&gt;</pre>
+        <p><input type="number" pattern="\d*" /></p>
+      </div>
+
+      <div class="input">
+        <h2>20</h2>
+        <pre>&lt;input type="number" step="0.01" /&gt;</pre>
+        <p><input type="number" step="0.01" /></p>
+      </div>
+
+      <div class="input">
+        <h2>21</h2>
+        <pre>&lt;input type="date" /&gt;</pre>
+        <p><input type="date" /></p>
+      </div>
+
+      <div class="input">
+        <h2>22</h2>
+        <pre>&lt;input type="datetime" /&gt;</pre>
+        <p><input type="datetime" /></p>
+      </div>
+
+      <div class="input">
+        <h2>23</h2>
+        <pre>&lt;input type="datetime-local" /&gt;</pre>
+        <p><input type="datetime-local" /></p>
+      </div>
+
+      <div class="input">
+        <h2>24</h2>
+        <pre>&lt;input type="month" /&gt;</pre>
+        <p><input type="month" /></p>
+      </div>
+
+      <div class="input">
+        <h2>25</h2>
+        <pre>&lt;input type="week" /&gt;</pre>
+        <p><input type="week" /></p>
+      </div>
+
+      <div class="input">
+        <h2>26</h2>
+        <pre>&lt;input type="time" /&gt;</pre>
+        <p><input type="time" /></p>
+      </div>
+
+      <div class="input">
+        <h2>27</h2>
+        <pre>&lt;input type="color" /&gt;</pre>
+        <p><input type="color" /></p>
+      </div>
+
+    </div>
+  </body>
+</html>
